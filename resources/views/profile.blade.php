@@ -5,7 +5,7 @@ $name = 'profile';
 @section('content')
 <div class="intro-y flex items-center mt-8">
                     <h2 class="text-lg font-medium mr-auto">
-                        Profile
+                        Profile hello
                     </h2>
                 </div>
                 <div class="grid grid-cols-12 gap-12 mt-5">
@@ -26,13 +26,13 @@ $name = 'profile';
 
                                           <div class="font-medium text-base mt-3">Name :- </div>
                                         <div class="text-gray-600 mt-1">{{ $user->name }}</div>
-                                        
+
                                         <div class="font-medium text-base mt-3">Email :- </div>
                                         <div class="text-gray-600 mt-1">{{ $user->email }}</div>
 
                                         <div class="font-medium text-base mt-3">Contact No. :- </div>
                                         <div class="text-gray-600 mt-1">{{ $user->number }}</div>
-                                        
+
                                         <div class="font-medium text-base mt-3">Birthdate :- </div>
                                         <div class="text-gray-600 mt-1">{{ $user->birthdate }}</div>
 
@@ -42,7 +42,7 @@ $name = 'profile';
                                             @foreach($user->getRoleNames() as $v)
                                                 <label class="badge badge-success">{{ $v }}</label>
                                             @endforeach
-                                        @endif   
+                                        @endif
                                         </div>
 
                                         <div class="font-medium text-base mt-3">Address :- </div>
@@ -52,10 +52,10 @@ $name = 'profile';
 
                                         <div class="font-medium text-base mt-3">Position :- </div>
                                         <div class="text-gray-600 mt-1">{{ $user->position }}</div>
-                                        
+
                                         <div class="font-medium text-base mt-3">Joining  Date :- </div>
                                         <div class="text-gray-600 mt-1">{{ $user->joining_date }}</div>
-                                        
+
                                         <div class="font-medium text-base mt-3">City :- </div>
                                         <div class="text-gray-600 mt-1">{{ $user->city }}</div>
 
