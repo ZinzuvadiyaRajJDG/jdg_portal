@@ -5,7 +5,7 @@ $name = 'profile';
 @section('content')
 <div class="intro-y flex items-center mt-8">
                     <h2 class="text-lg font-medium mr-auto">
-                        Profile
+                        Profile hello
                     </h2>
                 </div>
                 <div class="grid grid-cols-12 gap-12 mt-5">
